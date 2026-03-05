@@ -1,4 +1,4 @@
-## Information Retrieval System  
+# Information Retrieval System  
 Vector Space Model Implementation
 
 # 📌 Project Overview
