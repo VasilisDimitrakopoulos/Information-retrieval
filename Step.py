@@ -5,11 +5,11 @@ from collections import defaultdict, Counter
 
 folder_path = "C:\\Users\\Vasilis\\Documents\\Vasilis\\Programming\\Ανάκτηση Πληροφορίας 2025-2026\\collection\\docs"
 
-# Number of documents
-N = int(0)
-document_lengths = {}
-index = defaultdict(dict)
-document_frequency = defaultdict(int)
+
+N = int(0)  # Number of documents
+document_lengths = {}   # Doc size
+index = defaultdict(dict)   # Inverted index
+document_frequency = defaultdict(int)   # df
 
 def preprocess(text):
         # Lowercasing
